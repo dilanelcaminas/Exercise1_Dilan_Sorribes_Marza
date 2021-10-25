@@ -6,4 +6,8 @@ class TandemBike extends Bicycle {
             speed = 0;
         }
     }
+     void prinstStates(){
+        super.printStates();
+        System.out.println("num Seats:" + numSeats);
+    }
 }
